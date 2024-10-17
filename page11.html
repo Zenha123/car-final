@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>car category</title>
+    <link rel="stylesheet" href="page11.css">
+    <link rel="stylesheet" href="resp phone.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <script src="page1.js" charset="UTF-8"></script>
+    <header>
+        <nav class="navbar">
+            <div class="nav-logo">
+                <img src="logo.png" alt="Car Rental Logo">
+            </div>
+            <ul class="nav-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Cars</a></li>
+                <li><a href="#">Pricing</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+            <a href="#"  onclick="window.location.href='login.html'" class="btn-nav-login">Login</a>
+        </nav>
+    </header>
+    <div class="catalog">
+        <h2>Home</h2>
+        <img class="ar" src="images/Arrow.png">
+        <h2>Catalog</h2>
+        <img class="ar" src="images/Arrow.png">
+        <h2 class="oas">Services</h2>
+    </div>
+    <div class="brandu">
+        <div class="brand">
+
+
+            <div class="filter-wrapper">
+                <button class="filter-toggle-btn" onclick="toggleFilter()">Filter</button>
+
+
+            <div class="brand1"  id="filter-section">
+                <div class="dropdown-container">
+                    <div class="dropdown-header" onclick="toggleDropdown()">
+                        <span>car type</span>
+                        <span class="arrow">&#9660;</span> <!-- Down arrow -->
+                    </div>
+                    <div class="dropdown-content">
+                        <input type="text" placeholder="Search">
+                        <ul>
+                            <li><input type="checkbox">compact</li>
+                            <li><input type="checkbox">Sedan</li>
+                            <li><input type="checkbox">suv</li>
+                            <li><input type="checkbox">luxury</li>
+                            <li><input type="checkbox">Convertible</li>
+                            <li><input type="checkbox">Minivan</li>
+                            <li><input type="checkbox">Pickup truck</li>
+                            <li><input type="checkbox">Electric/Hybrid</li>
+                            <li><input type="checkbox">Cargo/Van</li>
+                        </ul>
+                    </div>
+                </div>
+
+
+
+               
+                    <div class="dropdown-container">
+                        <div class="dropdown-header" onclick="toggleDropdown1()">
+                            <span>Sort by Price</span>
+                            <span class="arrow1">&#9660;</span> <!-- Down arrow -->
+                        </div>
+                        <div class="dropdown-content1">
+                            <select id="sort-price" class="sort-dropdown">
+                                <option value="none">None</option>
+                                <option value="low-to-high">Low to High</option>
+                                <option value="high-to-low">High to Low</option>
+                            </select>
+                        </div>
+                    </div>
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                <div class="dropdown1-header" >
+                    <span>price range</span>
+                    <span class="arrow">&#9660;</span> <!-- Down arrow -->
+                </div><hr>
+                <div class="dropdown1-header">
+                    <span>Fuel Type</span>
+                    <span class="arrow">&#9660;</span> <!-- Down arrow -->
+                </div><hr>
+                <div class="dropdown1-header" >
+                    <span>Transmission</span>
+                    <span class="arrow">&#9660;</span> <!-- Down arrow -->
+                </div><hr>
+                <div class="dropdown1-header" >
+                    <span> Number of Seats</span>
+                    <span class="arrow">&#9660;</span> <!-- Down arrow -->
+                </div><hr>
+               
+            </div>
+            </div>
+            
+                   
+                
+                <div class="discount">
+
+
+                    
+                    <div class="count">
+
+
+                        <div class="now">
+                        <div class="count1">
+                            <i class="far fa-heart"></i> 
+                            <div class="i1">
+                                <img  class="ip" src="images/im1.png">
+                            </div>
+                            <p>Toyata corolla </p>
+                            <h3>1437</h3>
+                            <button onclick="window.location.href='page2.html'"class="Buy">view details</button>
+                        </div>
+                        <div class="count2">
+                            <i class="far fa-heart"></i> 
+                            <div class="cm">
+                                <img  class="ip" src="images/im9.png">
+                            </div>
+                            <p>Ford Mustang</p>
+                            <h3>1549</h3>
+                            <button class="Buy">view details</button>
+                        </div>
+                        <div class="count3">
+                            <i class="far fa-heart"></i> 
+                            <div class="wh">
+                                <img  class="ip" src="images/im3.png">
+                            </div>
+                            <p>Honda Civic </p>
+                            <h3>1399</h3>
+                            <button class="Buy">view details</button>
+                        </div>
+
+
+
+                    </div>
+                    <div class="now">
+                        <div class="count4">
+                            <i class="far fa-heart"></i> 
+                            <div class="wh">
+                                <img  class="ip" src="images/im2.png">
+                            </div>
+                            <p>Chevrolet Spark</p>
+                            <h3>1399</h3>
+                            <button class="Buy">view details</button>
+                        </div>
+                        <div class="count5">
+                            <i class="far fa-heart"></i> 
+                            <div class="wh">
+                                <img  class="ip" src="images/im3.png">
+                            </div>
+                            <p>Nissan Altima </p>
+                            <h3>1399</h3>
+                            <button class="Buy">view details</button>
+                        </div>
+                        <div class="count6">
+                            <i class="far fa-heart"></i> 
+                            <div class="wh">
+                                <img  class="ip" src="images/im4.png">
+                            </div>
+                            <p>Kia Sportage</p>
+                            <h3>1399</h3>
+                            <button class="Buy">view details</button>
+                        </div>
+
+
+
+                    </div>
+                    <div class="now">
+                        <div class="count7">
+                            <i class="far fa-heart"></i> 
+                            <div class="wh">
+                                <img  class="ip" src="images/im5.png">
+                            </div>
+                            <p>Ford Escape </p>
+                            <h3>1399</h3>
+                            <button class="Buy">view details</button>
+                        </div>
+                        <div class="count8">
+                            <i class="far fa-heart"></i> 
+                            <div class="wh">
+                                <img  class="ip" src="images/im6.png">
+                            </div>
+                            <p>Honda Accord </p>
+                            <h3>1399</h3>
+                            <button class="Buy">view details</button>
+                        </div>
+                        <div class="count9">
+                            <i class="far fa-heart"></i> 
+                            <div class="wh">
+                                <img  class="ip" src="images/im7.png">
+                            </div>
+                            <p>Dodge charger</p>
+                            <h3>1399</h3>
+                            <button class="Buy">view details</button>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="innerfoot">
+               <div class="black1">
+                  <div class="img cyb">
+                    <img src="images/cyb.png">
+                  </div>
+               <p>We are a residential interior design firm located in Portland. Our boutique-studio offers more than</p>
+               </div>
+               <div class="black2">
+                    <h3>Services</h3>
+                    <h5>Bonus program</h5>
+                    <h5>Gift cards</h5>
+                    <h5>Credit and payment</h5>
+                    <h5>Service contracts</h5>
+                    <h5>Non-cash account</h5>
+                    <h5>Payment</h5>
+               </div>
+               <div class="black3">
+                <h3>Assistance to the buyer</h3>
+                <h5>Find an order</h5>
+                <h5>Terms of delivery</h5>
+                <h5>Exchange and return of goods</h5>
+                <h5>Guarantee</h5>
+                <h5>Frequently asked questions</h5>
+                <h5>Terms of use of the site</h5>
+               </div>
+           </div>
+           <div class="iconnn">
+            <img src="images/Facebook.png">
+            <img src="images/Instagram.png">
+            <img src="images/Tiktok.png">
+            <img src="images/Twitter.png">
+        </div>
+    </div>
+    
+</body>
+</html>

@@ -1,0 +1,248 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+    color: #333;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+header {
+    width: 100%;
+    background-color: #8e44ad;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.ip{
+    width: 250px;
+    height: 150px;
+    background-color: #000;
+}
+
+
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.nav-logo img {
+    width: 100px;
+}
+
+.nav-links {
+    list-style-type: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin-right: 20px;
+}
+
+.nav-links a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 16px;
+    transition: color 0.3s;
+}
+
+.nav-links a:hover {
+    color: #8e44ad;
+}
+
+.btn-nav-login {
+    background-color:#c488dd ;
+    color: #000;
+    padding: 10px 20px;
+    border-radius: 6px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.btn-nav-login:hover {
+    background-color: #9b59b6;
+}
+main {
+    margin: 20px 0;
+}
+
+.car-details-container {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.car-gallery {
+    flex: 1;
+    min-width: 350px;
+    padding: 20px;
+}
+
+.car-gallery img{
+    padding-top: 100px;
+    width: 100%;
+    /* padding-left: 100px; */
+    height: auto;
+}
+
+.car-info {
+    flex: 1;
+    min-width: 350px;
+    padding: 20px;
+}
+
+.car-info h2 {
+    font-size: 28px;
+    margin-bottom: 15px;
+}
+
+.car-info .price {
+    font-size: 24px;
+    color: #e47911;
+    margin-bottom: 20px;
+}
+
+.car-specs {
+    list-style-type: none;
+    margin-bottom: 30px;
+}
+
+.car-specs li {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.booking-form h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.booking-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.booking-form label {
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.booking-form input[type="datetime-local"] {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.btn {
+    background-color:  #9b59b6;
+    border: 1px solid #a88734;
+    color: #111;
+    padding: 12px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color:#ba9dc7;
+    
+}
+
+.footer{
+    height:504px;
+    background-color:#8e44ad;
+    display: flex;
+    flex-direction: column;
+}
+.black1{
+    width:300px;
+    background-color:#8e44ad;
+    margin-left:100px;
+}
+/**/
+.innerfoot{
+    display:flex;
+    background-color: #8e44ad;
+    padding-top:100px;
+}
+.black2{
+    width:300px;
+    background-color:#8e44ad;
+    margin-left:150px;
+    
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+.black3{
+    width:300px;
+    background-color:#8e44ad;
+    margin-left:100px;
+    
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.black1 p{
+    padding-top:20px;
+    color: #CFCFCF;
+font-family: Inter;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: 170.5%; /* 23.87px */
+}
+.black2 h3{
+    color: #fff;
+
+}
+.black2 h5{
+    color: #CFCFCF;
+font-family: Inter;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 32px; /* 228.571% */
+}
+.black3 h3{
+    color: #fff;
+
+}
+.black3 h5{
+    color: #CFCFCF;
+font-family: Inter;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 32px; /* 228.571% */
+}
+.iconnn{
+    padding-left: 100px;
+   display: flex;
+  gap:30px;
+}
+
+
+.now{
+    background-color: #fff;
+}

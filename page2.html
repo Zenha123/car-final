@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car Details</title>
+    <link rel="stylesheet" href="page2.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="nav-logo">
+                <img src="logo.png" alt="Car Rental Logo">
+            </div>
+            <ul class="nav-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Cars</a></li>
+                <li><a href="#">Pricing</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+            <a href="#"  onclick="window.location.href='login.html'" class="btn-nav-login">Login</a>
+        </nav>
+    </header>
+        <div class="container car-details-container">
+            <div class="car-gallery">
+                <img src="images/car1.png">
+                </div>
+            
+
+            <div class="car-info">
+                <h2>2022 Toyota Camry</h2>
+                <p class="price">3,783Rs/day</p>
+
+                <ul class="car-specs">
+                    <li><strong>Type:</strong> Sedan</li>
+                    <li><strong>Seats:</strong> 5</li>
+                    <li><strong>Transmission:</strong> Automatic</li>
+                    <li><strong>Fuel Type:</strong> Petrol</li>
+                    <li><strong>Mileage:</strong> Unlimited</li>
+                    <li><strong>GPS:</strong> Included</li>
+                </ul>
+
+                <div class="booking-form">
+                    <h3>Book Now</h3>
+                    <form action="#" method="POST">
+                        <label for="pickup">Pickup Date/Time</label>
+                        <input type="datetime-local" id="pickup" name="pickup" required>
+
+                        <label for="dropoff">Drop-off Date/Time</label>
+                        <input type="datetime-local" id="dropoff" name="dropoff" required>
+
+                        <button type="submit" onclick="window.location.href='index.html'"class="btn">Book Now</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <div class="footer">
+        <div class="innerfoot">
+           <div class="black1">
+              <div class="img cyb">
+                <img src="images/cyb.png">
+              </div>
+           <p>We are a residential interior design firm located in Portland. Our boutique-studio offers more than</p>
+           </div>
+           <div class="black2">
+                <h3>Services</h3>
+                <h5>Bonus program</h5>
+                <h5>Gift cards</h5>
+                <h5>Credit and payment</h5>
+                <h5>Service contracts</h5>
+                <h5>Non-cash account</h5>
+                <h5>Payment</h5>
+           </div>
+           <div class="black3">
+            <h3>Assistance to the buyer</h3>
+            <h5>Find an order</h5>
+            <h5>Terms of delivery</h5>
+            <h5>Exchange and return of goods</h5>
+            <h5>Guarantee</h5>
+            <h5>Frequently asked questions</h5>
+            <h5>Terms of use of the site</h5>
+           </div>
+       </div>
+       <div class="iconnn">
+        <img src="images/Facebook.png">
+        <img src="images/Instagram.png">
+        <img src="images/Tiktok.png">
+        <img src="images/Twitter.png">
+    </div>
+</div>
+
+
+</body>
+</html>

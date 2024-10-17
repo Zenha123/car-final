@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Booking</title>
+    <link rel="stylesheet" href="page3.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="nav-logo">
+                <img src="logo.png" alt="Car Rental Logo">
+            </div>
+            <ul class="nav-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Cars</a></li>
+                <li><a href="#">Pricing</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+            <a href="#"  onclick="window.location.href='login.html'" class="btn-nav-login">Login</a>
+        </nav>
+    </header>
+
+    <main>
+        <div class="container booking-container">
+            <h2>Booking Details</h2>
+
+            <form action="#" method="POST" class="booking-form">
+                <!-- Personal Details -->
+                <div class="form-section">
+                    <h3>Personal Information</h3>
+                    <label for="name">Full Name</label>
+                    <input type="text" id="name" name="name" required>
+
+                    <label for="email">Email Address</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <label for="phone">Phone Number</label>
+                    <input type="tel" id="phone" name="phone" required>
+                </div>
+
+                <!-- Pickup and Drop-off Details -->
+                <div class="form-section">
+                    <h3>Pickup & Drop-off</h3>
+                    <label for="pickup-location">Pickup Location</label>
+                    <input type="text" id="pickup-location" name="pickup-location" required>
+
+                    <label for="pickup-date">Pickup Date/Time</label>
+                    <input type="datetime-local" id="pickup-date" name="pickup-date" required>
+
+                    <label for="dropoff-location">Drop-off Location</label>
+                    <input type="text" id="dropoff-location" name="dropoff-location" required>
+
+                    <label for="dropoff-date">Drop-off Date/Time</label>
+                    <input type="datetime-local" id="dropoff-date" name="dropoff-date" required>
+                </div>
+
+                <!-- Extras -->
+                <div class="form-section">
+                    <h3>Extras</h3>
+                    <label><input type="checkbox" name="extras" value="gps"> GPS Navigation ($5/day)</label>
+                    <label><input type="checkbox" name="extras" value="child-seat"> Child Seat ($7/day)</label>
+                    <label><input type="checkbox" name="extras" value="insurance"> ski rack ($10/day)</label>
+                </div>
+
+                <!-- Payment Details -->
+                <div class="form-section">
+                    <h3>Payment Information</h3>
+                    <label for="card-name">Name on Card</label>
+                    <input type="text" id="card-name" name="card-name" required>
+
+                    <label for="card-number">Card Number</label>
+                    <input type="text" id="card-number" name="card-number" required>
+
+                    <label for="card-expiry">Expiry Date</label>
+                    <input type="text" id="card-expiry" name="card-expiry" placeholder="MM/YY" required>
+
+                    <label for="card-cvc">CVC</label>
+                    <input type="text" id="card-cvc" name="card-cvc" required>
+                </div>
+
+                <!-- Booking Button -->
+                <button type="submit" class="btn">Confirm Booking</button>
+            </form>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Car Rental. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>

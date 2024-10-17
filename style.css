@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #2c3e50, #8e44ad);
+}
+
+.container {
+    width: 900px;
+    height: 500px;
+    background: #ffff;
+    border-radius: 12px;
+    overflow: hidden;
+    display: flex;
+}
+
+.login-box {
+    display: flex;
+    width: 100%;
+}
+
+.left-section {
+    width: 40%;
+    background-color:#fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+
+.login-form {
+    width: 100%;
+}
+
+.login-form h2 {
+    color: #000;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.input-group {
+    margin-bottom: 20px;
+}
+
+.input-group label {
+    color: #000;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 6px;
+    background-color:#d9d4d4;
+    color: #fff;
+}
+.abc{
+    color:black;
+}
+.actions {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.login-btn {
+    background-color: #8e44ad;
+    color: #fff;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.extra-options {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.extra-options label {
+    color: #000;
+    font-size: 15px;
+    
+}
+
+.extra-options a {
+    color: #8e44ad;
+    text-decoration: none;
+}
+
+.right-section {
+    width: 60%;
+    background: url('wave-bg.png') no-repeat center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 50px;
+    color: #0000;
+    text-align: center;
+}
+
+.right-section h1 {
+    font-size: 48px;
+    color:#000;
+}
+
+.right-section p {
+    margin: 20px 0;
+    font-size: 18px;
+    color:#000;
+}
+
+.sign-up-link {
+    background-color: #8e44ad;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 6px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 20px;
+    transition: background-color 0.3s;
+}
+.a{
+    color:black;
+}
+.sign-up-link:hover {
+    background-color: #9b59b6;
+}
+
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        width: 90%;
+        height: auto;
+    }
+    
+    .left-section, .right-section {
+        width: 100%;
+        padding: 20px;
+    }
+    
+    .right-section {
+        text-align: left;
+        background-size: contain;
+    }
+}

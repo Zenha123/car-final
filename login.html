@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car Rental Login</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="login-box">
+            <div class="left-section">
+                <div class="login-form">
+                    <h2>Login</h2>
+                    <form action="/login" method="POST">
+                        <div class="input-group">
+                            <label for="username">Username</label>
+                            <input type="text" id="username" name="username" required>
+                        </div>
+                        <div class="input-group">
+                            <label for="password">Password</label>
+                            <input type="password" id="password" name="password" required>
+                        </div>
+                        <div class="actions">
+                            <button type="submit"  onclick="window.location.href='page11.html'" class="login-btn">Login</button>
+                        </div>
+                        <div class="extra-options">
+                            <label>
+                                <input type="checkbox"  class="abc" name="remember"> Remember me
+                            </label>
+                            <a href="#">Forgot your password?</a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="right-section">
+                <h1>Welcome.</h1>
+                <p>Book your car rental now. Access a wide range of vehicles at the best prices!</p>
+                <a href="#" class="sign-up-link">Not a member? Sign up now</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
